@@ -59,7 +59,7 @@ def get_grade(score):
     else:
         return 'F'
     
-score = float(input("Enter student score (0-100): "))  
+score = int(input("Enter student score (0-100): "))  
 result =  get_grade(score)
 if result == None:
     print("Error: Score must be between 0 and 100.")  
